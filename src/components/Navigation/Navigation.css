@@ -1,0 +1,47 @@
+.navbar {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: transparent;
+}
+.navbar-inverse .navbar-nav .nav-item {
+  transition: all .5s ease;
+}
+
+.navbar-inverse .navbar-nav > .nav-item > .nav-link {
+  color: white;
+  cursor: pointer;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.navbar-inverse .navbar-nav > .active > .nav-link:hover {
+  color: lightgrey;
+  background-color: transparent;
+}
+.navbar-inverse .navbar-nav > .show > .nav-link, .navbar-inverse .navbar-nav > .show > .nav-link:focus, .navbar-inverse .navbar-nav > .show > .nav-link:hover {
+  color: lightgrey;
+  background-color: transparent;
+}
+.navbar-inverse .navbar-nav > .nav-item:hover, .navbar-inverse .navbar-nav > .show > .nav-link:focus, .navbar-inverse .navbar-nav > .active > .nav-link, .navbar-inverse .navbar-nav > .active > .nav-link:focus {
+  background-color: rgba(0,0,0, .4);
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.App .navbar {
+  margin-bottom: 0;
+  border: none;
+  border-radius: 0;
+  background-color: transparent;
+}
+.App .navbar-inverse {
+  background-color: transparent;
+}
+.navbar-brand > img {
+  height: 25px;
+}
+
+.navbar-nav > .nav-item > .nav-link {
+  padding-left: 15px;
+  padding-right: 15px;
+}

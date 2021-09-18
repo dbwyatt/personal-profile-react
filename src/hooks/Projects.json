@@ -1,0 +1,28 @@
+[
+  {
+    "url": "https://www.qualtrics.com/",
+    "title": "Qualtrics",
+    "description": "I currently work at Qualtrics, the platform for all experience management. I work as a full-stack developer creating custom solutions on top of our product.",
+    "img": "/img/qualtrics.png"
+  }, {
+    "url": "https://www.candorcontracts.com",
+    "title": "Candor Contracts",
+    "description": "Hopefully this will get to change college students lives. I've teamed up with several different individuals in an attempt to make the best appartment contract management site available. I am the lead developer on this project. There is nothing quite like this and we're hoping this greatly eases the pains of buying and selling contracts.",
+    "img": "/img/Candor-txt.png"
+  }, {
+    "url": "https://www.gstrackme.com/",
+    "title": "GS Trackme",
+    "description": "GS Trackme is a vehicle and mobile tracking service. I contracted with them to provide training on PHP and JavaScript for building their internal operations system. The system capabilities ranged from managing client information to an internal chat application.",
+    "img": "/img/gstrackme.png"
+  }, {
+    "url": "https://www.clsiart.com",
+    "title": "CLSI Art",
+    "description": "This is a fun website I created as a graphic design portfolio for CLSI Art. It allows for showcasing work CLSI Art has done. One of the cool things about this site is that I built a content management page that allows the user to manage their own content specific to their needs. They can upload new work samples, manage the home page carousel, and even change the background, amongst other things.",
+    "img": "/img/clsi.png"
+  }, {
+    "url": "https://www.ramplearning.com",
+    "title": "RAMP",
+    "description": "RAMP is a tool designed to assist teachers in making decisions about their students. It analyzes the students' data and makes suggestions based on their current progress.",
+    "img": "/img/ramp.png"
+  }
+]

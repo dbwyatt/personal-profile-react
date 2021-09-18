@@ -1,0 +1,50 @@
+{
+  "env": {
+    "browser": true,
+    "es2020": true,
+    "node": true,
+    "jest": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "airbnb",
+    "airbnb-typescript"
+  ],
+  "settings": {
+    "react": {
+      "version": "17.0.1"
+    },
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".jsx", ".ts", ".tsx"],
+        "moduleDirectory": [
+          "node_modules",
+          "src/"
+        ]
+      }
+    },
+    "import/internal-regex": "^modules/"
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 2020,
+    "sourceType": "module",
+    "project": "./tsconfig.json"
+  },
+  "plugins": [
+    "react",
+    "react-hooks"
+  ],
+  // rules can either be int or string: 0 - off, 1 - warn, 2 - error
+  // https://eslint.org/docs/user-guide/configuring#configuring-rules
+  "rules": {
+    "@typescript-eslint/comma-dangle": [2, "only-multiline"],
+    "no-param-reassign": [2, { "props": false }],
+    "react/jsx-filename-extension": [2, { "extensions": [".js", ".jsx", ".ts", ".tsx"] }],
+    "react/prop-types": [0],
+    "no-console": [1, { "allow": ["warn", "error"] }]
+  }
+}
