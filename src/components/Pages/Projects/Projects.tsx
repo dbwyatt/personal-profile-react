@@ -1,17 +1,12 @@
-/* eslint-disable max-len */
-import React, { LegacyRef } from 'react';
+import React from 'react';
 import useProjects from 'hooks/useProjects';
 import Project from './Project';
 
-type Props = {
-  divRef: LegacyRef<HTMLDivElement>
-};
-
-export default function Projects({ divRef }: Props) {
+export default function Projects() {
   const projects = useProjects();
 
   return (
-    <div ref={divRef} id="projects" className="page">
+    <div id="projects" className="page">
       <h2 className="page-header">
         Projects
         <br />

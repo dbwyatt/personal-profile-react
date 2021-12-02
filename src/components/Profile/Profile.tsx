@@ -22,7 +22,7 @@ export default function Profile() {
           <img className="social" src="/img/linkedin.png" alt="linkedin" />
         </a>
         <a target="_blank" href="https://www.github.com/dbwyatt" rel="noreferrer">
-          <img className="social" src="/img/github.png" alt="github" />
+          <img className="social" src="/img/github-pic.png" alt="github" />
         </a>
         <a target="_blank" href="https://twitter.com/dbwyatt23" rel="noreferrer">
           <img className="social" src="/img/twitter.png" alt="twitter" />
