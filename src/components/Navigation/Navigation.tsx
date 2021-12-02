@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHome } from '@fortawesome/free-solid-svg-icons';
 import useProjects, { ProjectsType } from 'hooks/useProjects';
+import { LinkContainer } from 'react-router-bootstrap';
 
 function Navigation() {
   const [activeKey, setActiveKey] = useState(0);
@@ -35,7 +36,11 @@ function Navigation() {
               </NavDropdown.Item>
             ))}
             <NavDropdown.Divider />
-            <Link className="dropdown-item" to="/projects">All projects</Link>
+            <LinkContainer to="/projects">
+              <NavDropdown.Item>
+                All projects
+              </NavDropdown.Item>
+            </LinkContainer>
           </NavDropdown>
           {/* <li>
             <a href="#endorsements"

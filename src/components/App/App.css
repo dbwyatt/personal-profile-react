@@ -79,6 +79,7 @@ ul {
 }
 
 .social {
+  margin: 0 1px;
   height: 30px;
   cursor: pointer;
   border-radius: 100%;
@@ -154,6 +155,15 @@ ul {
   color: #fff;
 }
 
+.page-header {
+  border-bottom: 1px solid #eee;
+}
+
+h2 small {
+  font-size: 65%;
+  font-weight: 400;
+}
+
 #endorsements #endorsements-container {
   display: block;
 }
@@ -185,7 +195,7 @@ ul {
   border-radius: 100%;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 90%;
   position: relative;
   margin: 50px auto 30px;
   background-color: #fff;
@@ -202,6 +212,8 @@ ul {
   box-shadow: 0 0 0 1px #d3d3d3;
   text-align: left;
   transition: transform .5s ease,box-shadow .5s ease;
+  border-radius: 5px;
+  overflow: hidden;
 }
 
 .project .project-description-container .project-heading {
